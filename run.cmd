@@ -30,4 +30,4 @@ if %errorlevel% neq 0 (
 )
 
 echo "Running the application..."
-java -cp target/VirtualThreadsSamples-1.0-SNAPSHOT.jar org.example.ThreadHandler %THREAD_TYPE% %NUM_THREADS% %SLEEP_SECONDS%
+java -cp target/VirtualThreadsSamples-1.0-SNAPSHOT.jar dev.coolgc.ThreadHandler %THREAD_TYPE% %NUM_THREADS% %SLEEP_SECONDS%

@@ -1,4 +1,4 @@
-package org.example;
+package dev.coolgc;
 
 import java.time.Duration;
 import java.util.concurrent.ExecutorService;
@@ -84,8 +84,8 @@ public class ThreadHandler {
 
     public static void main(String[] args) {
         if (args.length < 3) {
-            LOG.severe("Usage: java org.example.ThreadHandler <platform|virtual> <numberOfThreads> <sleepSeconds>");
-            LOG.severe("Example: java org.example.ThreadHandler virtual 20000 30");
+            LOG.severe("Usage: java dev.coolgc.ThreadHandler <platform|virtual> <numberOfThreads> <sleepSeconds>");
+            LOG.severe("Example: java dev.coolgc.ThreadHandler virtual 20000 30");
             return;
         }
 
