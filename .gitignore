@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Thread Dumps ###
+threaddump_pid_*.txt
+threaddump_pid_*.json
